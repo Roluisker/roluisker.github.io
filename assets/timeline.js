@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function drawChart() {
   const svg = d3.select(" #timelineChart").append("svg").attr('id','Chart').attr("width", '100%').attr("height", 500);
-  d3.json("https://raw.githubusercontent.com/sxxnx/Interactive-timeline/main/data/timeline.json").then(function(data) {
+  //d3.json("https://raw.githubusercontent.com/sxxnx/Interactive-timeline/main/data/timeline.json").then(function(data) {
+    d3.json("https://raw.githubusercontent.com/Roluisker/roluisker.github.io/main/data/timeline.json").then(function(data) {
     svg.append('line').attr('class', 'timeline-base')
       .attr("x1", 0)
       .attr("y1", 100)
