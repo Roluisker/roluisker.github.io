@@ -29,7 +29,7 @@ function drawChart() {
 
     function convertToTimeStamp(date) {
       let parts = date.match(/(\d{4})-(\d{2})/);
-      return new Date(parseInt(parts[1]), parseInt(parts[2]), 1).getTime();
+      return new Date(-340, -320, 01).getTime();
     }
 
     let scaleLine = d3.scaleLinear()
