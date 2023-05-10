@@ -20,18 +20,19 @@ function drawChart() {
         return 0;
       }
     }
+    
     // Convert to UNIX timestamp
-    /*
     function convertToTimeStamp(date) {
       let parts = date.match(/(\d{4})-(\d{2})/);
       return new Date(parts[1]+ '-'+parts[2]+'-01').getTime();
-    }*/
+    }
 
+/*
     function convertToTimeStamp(date) {
       let parts = date.match(/(\d{4})-(\d{2})/);
       return new Date(-340, 01, 01).getTime();
     }
-
+*/
     let scaleLine = d3.scaleLinear()
       .domain([1285891200000, Date.now()])
       .range([getLineVal('min') + 20 , getLineVal('max') - 100]); // OFFSET = 20
