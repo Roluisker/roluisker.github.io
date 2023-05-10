@@ -1,14 +1,14 @@
 [
   {
   "id": 0,
-  "name": "Alejandro mangno mangno 3",
+  "name": "Alejandro mangno mangno 4",
   "category": "Education",
   "placeName": "Université de Grenoble (Stendhal)",
   "country": "France",
   //"startDate": "2010-09",
   //"endDate": "2013-07",
-  "startDate": "323-01",
-  "endDate": "343-01",
+  "startDate": "-323-01",
+  "endDate": "-343-01",
   "description":["Japanese (Kanji, Grammar, History, Language practise)",
     "English (British and American history, Grammar, Language practise)",
    "Economy, Accounting, Law, International law",
