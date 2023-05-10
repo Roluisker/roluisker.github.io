@@ -116,12 +116,12 @@
   "id": 6,
   "name": "Seneca",
   "category": "Education",
-  "placeName": "ZZ Company",
-  "dateToShow": "356 A.C - 323 A.C",
-  "country": "France",
+  "placeName": "Estoicismo final - Cordoba",
+  "dateToShow": "5 A.C - 65",
+  "country": "España",
   "startDate": "2018-01",
   "endDate": "2019-02",
-  "description": "Study to evaluate the impact of an application upgrade (SQL)",
+  "description": "Concibe la filosofía como un consuelo y como un medio para alcanzar la plenitud del bien vivir, es decir, como aspiración a la felicidad, caracterizada por la paz, la consecución de la virtud y la tranquilidad del espíritu. En este sentido sigue las directrices fundamentales del ideal del sabio propias del estoicismo, como la necesidad de conseguir la apatía, la resignación ante el devenir marcado por el destino y la providencia, el autodominio y la búsqueda de la verdad en uno mismo.",
   "skills": [
     "SQL"
   ]
