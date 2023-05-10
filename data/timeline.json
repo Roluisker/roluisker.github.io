@@ -1,16 +1,14 @@
 [
   {
   "id": 0,
-  "name": "MAGNO",
+  "name": "Alejandro Magno",
   "category": "Education",
-  "placeName": "Université de Grenoble (Stendhal)",
+  "placeName": "356 A.C - 323 A.C",
   "country": "France",
   "startDate": "2010-09",
   "endDate": "2013-07",
-  "description":["Japanese (Kanji, Grammar, History, Language practise)",
-    "English (British and American history, Grammar, Language practise)",
-   "Economy, Accounting, Law, International law",
-   "Introduction to computer Science (Javascript, Adobe Flash Player, Microsoft Access, CMS)"],
+  "description":["Concepto de ciudad estado queda obsoleto",
+    "Creo un imperio hasta la india"],
   "skills": [
     "english",
     "japanese",
