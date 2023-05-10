@@ -26,7 +26,7 @@ function drawChart() {
       let parts = date.match(/(\d{4})-(\d{2})/);
       return new Date(parts[1]+ '-'+parts[2]+'-01').getTime();
     }
-    
+
     let scaleLine = d3.scaleLinear()
       .domain([1285891200000, Date.now()])
       .range([getLineVal('min') + 20 , getLineVal('max') - 100]); // OFFSET = 20
@@ -102,10 +102,10 @@ function drawChart() {
       .text(function(data) {
       // Get only YYYY-MM
       if(data.startDate.length > 7) {
-        return (data.startDate.slice(0,7))
+        return "Datos"//(data.startDate.slice(0,7))
       }
       else {
-        return(data.startDate)
+        return "Datos"//(data.startDate)
       }
     })
     .attr('x', function(data) {
