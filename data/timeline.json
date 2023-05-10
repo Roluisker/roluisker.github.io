@@ -128,50 +128,18 @@
 },
 {
   "id": 7,
-  "name": "Introduction to Data Science in Python",
+  "name": "Pirrón de Elis",
   "category": "Education",
-  "placeName": "Coursera",
-  "dateToShow": "356 A.C - 323 A.C",
-  "country": "France",
-  "startDate": "2018-10",
-  "endDate": "2018-11-29",
-  "description": "Courses : What is Data Science, Open tools for Data Science, Data Science Methodology, Databases and SQL for Data Science",
+  "placeName": "Escepticismo - Citio",
+  "dateToShow": "360 A.C - 272 A.C",
+  "country": "Grecia",
+  "startDate": "2010-11",
+  "endDate": "2011-12",
+  "description": "Las motivaciones iniciales del pensamiento de Pirrón fueron de índole moral, y se centraron en cómo conseguir la felicidad. Para ello Pirrón intentó establecer qué criterios deben dirigir el pensamiento pero, según él, esto chocaba con la constatación de la imposibilidad de conocer la verdadera naturaleza de las cosas ya que todo nuestro conocimiento procede de la sensación, y ésta no nos da un conocimiento de las cosas mismas sino que, por ser cambiante, sólo nos proporciona meras apariencias.",
   "skills": [
     "Python",
     "Jupyter Notebooks",
     "SQL"
-  ]
-},
-{
-  "id": 8,
-  "name": "IBM Data Science Courses",
-  "category": "Education",
-  "placeName": "Coursera",
-  "dateToShow": "356 A.C - 323 A.C",
-  "country": "France",
-  "startDate": "2018-11-20",
-  "endDate": "2019-01-25",
-  "description": "Python for Data Science, Data Analysis with Python, Data Visualization with Python",
-  "skills": [
-    "Python",
-    "Jupyter Notebooks",
-    "Matplotlib",
-    "Numpy",
-    "Seaborn"
-  ]
-},
-{
-  "id": 9,
-  "name": "Managing Data Analysis",
-  "category": "Education",
-  "placeName": "Coursera",
-  "dateToShow": "356 A.C - 323 A.C",
-  "country": "France",
-  "startDate": "2018-12-23",
-  "endDate": "2019-01-08",
-  "description": "Course about the process of managing data analysis and EDA",
-  "skills": [
-    "Data Analysis"
   ]
 }
 ]
