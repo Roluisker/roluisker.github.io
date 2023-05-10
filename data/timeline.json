@@ -173,19 +173,5 @@
   "skills": [
     "Data Analysis"
   ]
-},
-{
-  "id": 10,
-  "name": "Interactivity with JavaScript",
-  "category": "Education",
-  "placeName": "Coursera",
-  "dateToShow": "356 A.C - 323 A.C",
-  "country": "France",
-  "startDate": "2016-01-24",
-  "endDate": "2016-02-17",
-  "description": "Basics of Javascript language",
-  "skills": [
-    "Javascript"
-  ]
 }
 ]
