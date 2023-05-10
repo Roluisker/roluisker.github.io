@@ -102,10 +102,10 @@ function drawChart() {
       .text(function(data) {
       // Get only YYYY-MM
       if(data.startDate.length > 7) {
-        return data.placeName//(data.startDate.slice(0,7))
+        return data.dateToShow//(data.startDate.slice(0,7))
       }
       else {
-        return data.placeName//(data.startDate)
+        return data.dateToShow//(data.startDate)
       }
     })
     .attr('x', function(data) {
@@ -126,7 +126,7 @@ function drawChart() {
     data.map(d => {
       let details = d3.select('#timelineChart').append('div').classed('details', true).classed('details-' + d.category.toLowerCase(), true).attr('id', 'details-' + d.id);
       details.append('i').classed('material-icons close-icon', true).text('close');
-      details.append('div').classed('title', true).append('span').classed('date text-date date-title', true).text(d.startDate + '-' + d.endDate);
+      details.append('div').classed('title', true).append('span').classed('date text-date date-title', true).text(dateToShow) //text(d.startDate + '-' + d.endDate);
       details.select(' .title').append('span').classed('position-title text-position', true).text(d.name);
       details.append('div').classed('place-name text-place hovered', true).text(d.placeName);
       details.append('div')
