@@ -102,10 +102,10 @@ function drawChart() {
       .text(function(data) {
       // Get only YYYY-MM
       if(data.startDate.length > 7) {
-        return "Datos"//(data.startDate.slice(0,7))
+        return data.placeName//(data.startDate.slice(0,7))
       }
       else {
-        return "Datos"//(data.startDate)
+        return data.placeName//(data.startDate)
       }
     })
     .attr('x', function(data) {
