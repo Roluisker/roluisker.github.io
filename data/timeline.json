@@ -114,12 +114,12 @@
 },
 {
   "id": 6,
-  "name": "Research for version upgrade at Richemont",
-  "category": "Work",
+  "name": "Seneca",
+  "category": "Education",
   "placeName": "ZZ Company",
   "dateToShow": "356 A.C - 323 A.C",
   "country": "France",
-  "startDate": "2019-01",
+  "startDate": "2018-01",
   "endDate": "2019-02",
   "description": "Study to evaluate the impact of an application upgrade (SQL)",
   "skills": [
